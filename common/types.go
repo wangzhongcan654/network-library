@@ -8,8 +8,10 @@ package netcommon
 
 
 const(
-	//默认协议头字节
+	//默认协议头，代表真实报文数据大小
 	DefaultHeadSize = 4
-	//默认协议报文大小
+	//默认协议体报文大小
 	DefaultPackageSize = 4* 1024
 )
+
+
