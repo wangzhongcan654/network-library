@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6d3545a-b2fa-4f10-882e-8a7c1feff176" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/common/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/common/types.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcpserver/reader.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcpserver/reader.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tcpserver/writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/tcpserver/writer.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="1236" />
+          <entry key="go" value="1237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="1236" />
+          <entry key="Go" value="1237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.go.postfix.template.usages.trigger">
@@ -58,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tcpserver/writer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1450">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="200">
+              <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
               <folding>
                 <element signature="e#248#283#0" expanded="true" />
               </folding>
@@ -70,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tcpserver/reader.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-670">
               <caret lean-forward="true" />
               <folding>
                 <element signature="e#247#289#0" expanded="true" />
@@ -99,8 +97,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tcpserver/reader.go" />
-        <option value="$PROJECT_DIR$/tcpserver/writer.go" />
         <option value="$PROJECT_DIR$/common/types.go" />
+        <option value="$PROJECT_DIR$/tcpserver/writer.go" />
       </list>
     </option>
   </component>
@@ -154,7 +152,7 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544163481994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544163696954" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -183,12 +181,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544155440089</updated>
-      <workItem from="1544155442310" duration="3634000" />
+      <workItem from="1544155442310" duration="3849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3634000" />
+    <option name="totallyTimeSpent" value="3849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,22 +245,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcpserver/writer.go">
+    <entry file="file://$PROJECT_DIR$/tcpserver/reader.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1450">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="-670">
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#248#283#0" expanded="true" />
+            <element signature="e#247#289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tcpserver/reader.go">
+    <entry file="file://$PROJECT_DIR$/tcpserver/writer.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="200">
+          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding>
-            <element signature="e#247#289#0" expanded="true" />
+            <element signature="e#248#283#0" expanded="true" />
           </folding>
         </state>
       </provider>

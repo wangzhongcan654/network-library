@@ -56,7 +56,7 @@ func (w *writer)writeHead(len int)(int,error){
 /*
 *@writerUint32BigEndian：将要发送的信息转换为网络字节序，并发送
 *@v：要发送package的大小
-@return:返回真实发送数据的字节大小
+*@return:返回真实发送数据的字节大小
 */
 func (w *writer)writerUint32BigEndian(v uint32)(n int,err error){
 	binary.BigEndian.PutUint32(w.buf[:netcommon.DefaultHeadSize],v)
