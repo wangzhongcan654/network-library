@@ -6,6 +6,10 @@
 ==============================================================*/
 package netcommon
 
+import (
+	"net"
+	"network-library/tcpserver"
+)
 
 const(
 	//默认协议头，代表真实报文数据大小
@@ -14,4 +18,10 @@ const(
 	DefaultPackageSize = 4* 1024
 )
 
+var (
+	EventIn = func(conn *tcpserver.TcpConn,msg []byte){}
+	EventOut = func(conn net.Conn,msg []byte){}
+	EventConnect = func(conn *tcpserver.TcpConn){}
+	EventDisconnect = func(conn *tcpserver.TcpConn){}
+)
 
