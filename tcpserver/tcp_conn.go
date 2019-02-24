@@ -1,3 +1,9 @@
+/*==============================================================
+#Author: curl.wang
+#Description: tcpconn  single conn
+#Version: v1.0.0
+#LastChangeTime:2019-02-24
+==============================================================*/
 package tcpserver
 
 import (
